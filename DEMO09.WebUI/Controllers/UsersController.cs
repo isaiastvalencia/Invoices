@@ -14,7 +14,6 @@ namespace DEMO09.WebUI.Controllers
             _userProcessor = userProcessor;
         }
 
-        [OutputCache(NoStore = true, Duration = 0, VaryByParam = "*")]
         [HttpGet]
         public ActionResult SignIn()
         {
@@ -41,7 +40,6 @@ namespace DEMO09.WebUI.Controllers
             return View();
         }
 
-        [OutputCache(NoStore = true, Duration = 0, VaryByParam = "*")]
         [HttpPost]
         public ActionResult SignUp(UserSignUp entitie)
         {
