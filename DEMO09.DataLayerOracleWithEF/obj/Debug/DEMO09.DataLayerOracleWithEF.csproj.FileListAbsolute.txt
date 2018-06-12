@@ -2,3 +2,7 @@ C:\DEMOS\DEMO09\DEMO09\DEMO09.DataLayerOracleWithEF\bin\Debug\DEMO09.DataLayerOr
 C:\DEMOS\DEMO09\DEMO09\DEMO09.DataLayerOracleWithEF\bin\Debug\DEMO09.DataLayerOracleWithEF.pdb
 C:\DEMOS\DEMO09\DEMO09\DEMO09.DataLayerOracleWithEF\obj\Debug\DEMO09.DataLayerOracleWithEF.dll
 C:\DEMOS\DEMO09\DEMO09\DEMO09.DataLayerOracleWithEF\obj\Debug\DEMO09.DataLayerOracleWithEF.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataLayerOracleWithEF\bin\Debug\DEMO09.DataLayerOracleWithEF.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataLayerOracleWithEF\bin\Debug\DEMO09.DataLayerOracleWithEF.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataLayerOracleWithEF\obj\Debug\DEMO09.DataLayerOracleWithEF.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataLayerOracleWithEF\obj\Debug\DEMO09.DataLayerOracleWithEF.pdb

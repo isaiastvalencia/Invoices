@@ -9,3 +9,14 @@ C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessLayer\bin\Debug\DEMO09.Types.pdb
 C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessLayer\obj\Debug\DEMO09.BusinessLayer.csprojResolveAssemblyReference.cache
 C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessLayer\obj\Debug\DEMO09.BusinessLayer.dll
 C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessLayer\obj\Debug\DEMO09.BusinessLayer.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.BusinessLayer.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.BusinessLayer.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.BusinessInterfaces.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.DataInterfaces.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.Types.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.BusinessInterfaces.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.DataInterfaces.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\bin\Debug\DEMO09.Types.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\obj\Debug\DEMO09.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\obj\Debug\DEMO09.BusinessLayer.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.BusinessLayer\obj\Debug\DEMO09.BusinessLayer.pdb

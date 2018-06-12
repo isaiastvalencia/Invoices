@@ -5,3 +5,10 @@ C:\DEMOS\DEMO09\DEMO09\DEMO09.DataInterfaces\bin\Debug\DEMO09.Types.pdb
 C:\DEMOS\DEMO09\DEMO09\DEMO09.DataInterfaces\obj\Debug\DEMO09.DataInterfaces.csprojResolveAssemblyReference.cache
 C:\DEMOS\DEMO09\DEMO09\DEMO09.DataInterfaces\obj\Debug\DEMO09.DataInterfaces.dll
 C:\DEMOS\DEMO09\DEMO09\DEMO09.DataInterfaces\obj\Debug\DEMO09.DataInterfaces.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\bin\Debug\DEMO09.DataInterfaces.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\bin\Debug\DEMO09.DataInterfaces.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\bin\Debug\DEMO09.Types.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\bin\Debug\DEMO09.Types.pdb
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\obj\Debug\DEMO09.DataInterfaces.csprojResolveAssemblyReference.cache
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\obj\Debug\DEMO09.DataInterfaces.dll
+C:\DEMOS\DEMO09\Invoices\DEMO09.DataInterfaces\obj\Debug\DEMO09.DataInterfaces.pdb
