@@ -1,0 +1,44 @@
+﻿@model DEMO09.Types.TaxProfileType
+
+<h2>Detalles</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ActionLink("Ver tus perfiles |","Index","TaxProfiles")
+    @Html.ActionLink(" Editar Perfil", "Edit", "TaxProfiles")
+    <br /><br />
+
+
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.Name)</dt>
+            <dd>@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Identification)</dt>
+            <dd>@Html.DisplayFor(model => model.Identification)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Street)</dt>
+            <dd>@Html.DisplayFor(model => model.Street)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.ExteriorNumber)</dt>
+            <dd>@Html.DisplayFor(model => model.ExteriorNumber)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.InteriorNumber)</dt>
+            <dd>@Html.DisplayFor(model => model.InteriorNumber)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Suburb)</dt>
+            <dd>@Html.DisplayFor(model => model.Suburb)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Municipality)</dt>
+            <dd>@Html.DisplayFor(model => model.Municipality)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.State)</dt>
+            <dd>@Html.DisplayFor(model => model.State)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Country)</dt>
+            <dd>@Html.DisplayFor(model => model.Country)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.PostCode)</dt>
+            <dd>@Html.DisplayFor(model => model.PostCode)</dd>
+        </dl>
+
+}

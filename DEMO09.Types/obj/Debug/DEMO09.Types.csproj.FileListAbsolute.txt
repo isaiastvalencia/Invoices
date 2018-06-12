@@ -1,0 +1,4 @@
+C:\DEMOS\DEMO09\DEMO09\DEMO09.Types\bin\Debug\DEMO09.Types.dll
+C:\DEMOS\DEMO09\DEMO09\DEMO09.Types\bin\Debug\DEMO09.Types.pdb
+C:\DEMOS\DEMO09\DEMO09\DEMO09.Types\obj\Debug\DEMO09.Types.dll
+C:\DEMOS\DEMO09\DEMO09\DEMO09.Types\obj\Debug\DEMO09.Types.pdb

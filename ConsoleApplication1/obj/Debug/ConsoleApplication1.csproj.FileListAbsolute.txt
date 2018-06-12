@@ -1,0 +1,16 @@
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\DEMO09.DataInterfaces.dll
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\DEMO09.DataLayerMSSQLWithEF.dll
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\DEMO09.Types.dll
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\DEMO09.DataInterfaces.pdb
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\DEMO09.DataLayerMSSQLWithEF.pdb
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\DEMO09.Types.pdb
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\DEMOS\DEMO09\DEMO09\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

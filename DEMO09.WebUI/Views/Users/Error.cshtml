@@ -1,0 +1,20 @@
+﻿@model Exception
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<h2>Ooops!</h2>
+
+    @{var mensaje = Model.Message;
+        while (Model.InnerException != null)
+        {
+            mensaje = Model.InnerException.Message;
+        }
+    }
+<div>
+<p>
+    @mensaje
+</p>
+</div>
+

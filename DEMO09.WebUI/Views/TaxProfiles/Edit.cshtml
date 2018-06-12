@@ -1,0 +1,93 @@
+﻿@model DEMO09.Types.TaxProfileType 
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Editar</h2>
+
+@using (Html.BeginForm())
+{
+
+    @Html.AntiForgeryToken()
+    
+    @Html.ActionLink("Ver tus perfiles","Index","TaxProfiles")
+    <br /><br />
+
+    <div class="form-horizontal">
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model =>  model.IdTaxProfile)
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Nombre Fiscal" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+            
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Identification, new { htmlAttributes = new { @class = "form-control", placeholder = "RFC" } })
+                @Html.ValidationMessageFor(model => model.Identification, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Street, new { htmlAttributes = new { @class = "form-control", placeholder = "Calle" } })
+                @Html.ValidationMessageFor(model => model.Street, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.ExteriorNumber, new { htmlAttributes = new { @class = "form-control", placeholder = "Número Exterior" } })
+                @Html.ValidationMessageFor(model => model.ExteriorNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.InteriorNumber, new { htmlAttributes = new { @class = "form-control", placeholder = "Número Interior" } })
+                @Html.ValidationMessageFor(model => model.InteriorNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Suburb, new { htmlAttributes = new { @class = "form-control", placeholder = "Colonia" } })
+                @Html.ValidationMessageFor(model => model.Suburb, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Municipality, new { htmlAttributes = new { @class = "form-control", placeholder = "Municipio/Delegación" } })
+                @Html.ValidationMessageFor(model => model.Municipality, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.State, new { htmlAttributes = new { @class = "form-control", placeholder = "Estado" } })
+                @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control", placeholder = "Pais" } })
+                @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.PostCode, new { htmlAttributes = new { @class = "form-control", placeholder = "Codigo Postal" } })
+                @Html.ValidationMessageFor(model => model.PostCode, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                <button type="submit" class="btn btn-primary" >Guardar</button>
+            </div>
+        </div>
+
+   </div>
+}
+

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<DEMO09.Types.TaxProfileType>
+
+<h2>Tus Perfiles</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo perfil", "Create")
+</p>
+<br />
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+        <th>@Html.DisplayNameFor(model => model.Identification)</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+        <td>@Html.DisplayFor(modelItem => item.Identification)</td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.IdTaxProfile }) |
+            @Html.ActionLink("Detalles", "Details", new { id = item.IdTaxProfile }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id = item.IdTaxProfile })
+        </td>
+    </tr>
+}
+</table>

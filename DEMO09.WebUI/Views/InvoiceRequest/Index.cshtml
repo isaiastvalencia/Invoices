@@ -1,0 +1,22 @@
+﻿@model IEnumerable<DEMO09.Types.InvoiceRequestType>
+
+<h2>Index</h2>
+
+
+    <table>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.IdSender)</th>
+            <th>@Html.DisplayNameFor(model => model.FolioNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.IdUser)</th>
+        </tr>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.IdSender)</td>
+                <td>@Html.DisplayFor(modelItem => item.FolioNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.IdUser)</td>
+            </tr>
+        }
+    </table>
+

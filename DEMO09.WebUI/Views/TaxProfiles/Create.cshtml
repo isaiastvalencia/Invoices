@@ -1,0 +1,89 @@
+﻿@model DEMO09.Types.TaxProfileType
+
+<h2>Crear nuevo perfil fiscal</h2>
+
+@Html.ActionLink("Ver tus perfiles","Index")
+<br /><br />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-damger" })
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Escribe el nombre fiscal" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Identification, new { htmlAttributes = new { @class = "form-control", placeholder = "Escribe el RFC" } })
+                @Html.ValidationMessageFor(model => model.Identification, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Street, new { htmlAttributes= new { @class="form-control", placeholder="Calle"} })
+                @Html.ValidationMessageFor(model => model.Street, "", new { @class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.ExteriorNumber, new { htmlAttributes = new { @class = "form-control", placeholder="Número exterior"} })
+                @Html.ValidationMessageFor(model => model.ExteriorNumber, "", new { @class="text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.InteriorNumber, new { htmlAttributes = new { @class = "form-control", placeholder="Número interior"} })
+                @Html.ValidationMessageFor(model => model.InteriorNumber, "", new { @class="text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Suburb, new { htmlAttributes = new { @class = "form-control", placeholder = "Colonia" } })
+                @Html.ValidationMessageFor(model => model.Suburb, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Municipality, new { htmlAttributes = new { @class = "form-control", placeholder = "Municipio/Delegación" } })
+                @Html.ValidationMessageFor(model => model.Municipality, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.State, new { htmlAttributes = new { @class = "form-control", placeholder = "Estado" } })
+                @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control", placeholder = "Pais" } })
+                @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm">
+                @Html.EditorFor(model => model.PostCode, new { htmlAttributes = new { @class = "form-control", placeholder = "Código postal" } })
+                @Html.ValidationMessageFor(model => model.PostCode, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+
+    </div>
+}

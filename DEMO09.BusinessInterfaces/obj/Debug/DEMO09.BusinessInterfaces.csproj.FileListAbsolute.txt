@@ -1,0 +1,7 @@
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\bin\Debug\DEMO09.BusinessInterfaces.dll
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\bin\Debug\DEMO09.BusinessInterfaces.pdb
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\bin\Debug\DEMO09.Types.dll
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\bin\Debug\DEMO09.Types.pdb
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\obj\Debug\DEMO09.BusinessInterfaces.csprojResolveAssemblyReference.cache
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\obj\Debug\DEMO09.BusinessInterfaces.dll
+C:\DEMOS\DEMO09\DEMO09\DEMO09.BusinessInterfaces\obj\Debug\DEMO09.BusinessInterfaces.pdb
