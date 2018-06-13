@@ -13,19 +13,22 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar">1</span>
+                    <span class="icon-bar">2</span>
+                    <span class="icon-bar">3</span>
                 </button>
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("TaxProfiles", "Index", "TaxProfiles")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Ver tus perfiles", "Index", "TaxProfiles")</li>
+                    <li>@Html.ActionLink("Quienes somos", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contactanos", "Contact", "Home")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("SignIn", "SignIn", "Users")</li>
+                    <li>@Html.ActionLink("SignUp", "SignUp", "Users")</li>
                 </ul>
             </div>
         </div>
