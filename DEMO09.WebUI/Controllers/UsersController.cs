@@ -7,11 +7,13 @@ namespace DEMO09.WebUI.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly string _userSigIn;
         private readonly IUserProcessor _userProcessor;
 
         public UsersController(IUserProcessor userProcessor)
         {
             _userProcessor = userProcessor;
+            _userSigIn = "UserSigIn";
         }
 
         [HttpGet]
@@ -26,12 +28,13 @@ namespace DEMO09.WebUI.Controllers
             try
             {
                 _userProcessor.SignIn(userSignIn);
+                Session[_userSigIn] = userSignIn.Email;
             }
             catch (Exception ex)
             {
                 return View("Error", ex);
             }
-            return View("Welcome");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet]

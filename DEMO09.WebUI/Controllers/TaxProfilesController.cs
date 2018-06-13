@@ -9,11 +9,13 @@ namespace DEMO09.WebUI.Controllers
 {
     public class TaxProfilesController : Controller
     {
+        private readonly string _userSigIn;
         private readonly ITaxProfileProcessor _TaxProfileProcessor;
 
         public TaxProfilesController(ITaxProfileProcessor TaxProfileProcessor)
         {
             _TaxProfileProcessor = TaxProfileProcessor;
+            _userSigIn = "UserSigIn";
         }
 
     
@@ -21,6 +23,10 @@ namespace DEMO09.WebUI.Controllers
         [HttpGet]
         public ActionResult Index()
         {
+            if(Session[_userSigIn]==null)
+            {
+                return RedirectToAction("SignIn","Users");
+            }
             return View(_TaxProfileProcessor.FindAllTaxProfiles());
         }
 
