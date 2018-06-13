@@ -78,5 +78,13 @@ namespace DEMO09.WebUI.Controllers
             return View("Suscess");
         }
 
+        [HttpPost]
+        public ActionResult LogOff()
+        {
+            Session[_userSigIn] = null;
+            return Redirect("SignIn");
+        }
+
+
     }
 }

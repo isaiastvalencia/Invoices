@@ -27,8 +27,25 @@
                     <li>@Html.ActionLink("Contactanos", "Contact", "Home")</li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink("SignIn", "SignIn", "Users")</li>
-                    <li>@Html.ActionLink("SignUp", "SignUp", "Users")</li>
+                    @if (Session["UserSigIn"] == null)
+                    {
+                        <li>@Html.ActionLink("Iniciar Session", "SignIn", "Users")</li>
+                        <li>@Html.ActionLink("Registrate", "SignUp", "Users")</li>
+                    }
+                    else
+                    {
+                        using (Html.BeginForm("LogOff", "Users", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    @Html.ActionLink(Session["UserSigIn"].ToString(), "Index", "Home", routeValues: null, htmlAttributes: new { title = "Manage" })
+                                </li>
+                                <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                            </ul>
+                        }
+                    }
                 </ul>
             </div>
         </div>
